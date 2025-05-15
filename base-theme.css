@@ -24,10 +24,15 @@ body {
     padding: .5rem 7%;
 }
 
+.nav-top-title {
+    font-weight: bold; 
+    color:black;
+}
+
 .nav-top-menu {
     display: flex;
     flex-direction: row;
-    gap: 5em;
+    gap: 3em;
 }
 
 .hover-underline {
