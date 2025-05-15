@@ -1,13 +1,25 @@
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400..700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
     font-size: 62.5%;
 }
 body {
-    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-    line-height: 1.6;
-    font-weight: 400;
-    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFFFF;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+
+.saira-font-div {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: regular;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 /* Top bar */
@@ -40,7 +52,6 @@ body {
     color: #000000;
     position: relative;
     display: inline-block;
-    margin: 10px;
 }
 
 .hover-underline::after,
