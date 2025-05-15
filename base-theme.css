@@ -13,15 +13,6 @@ body {
     font-variation-settings: "wdth" 100;
 }
 
-
-.saira-font-div {
-  font-family: "Saira", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: regular;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-
 /* Top bar */
 .nav-top {
     display: flex;
@@ -34,6 +25,8 @@ body {
     border-bottom: 1px solid #7A7A7A;
     background-color: #F2F2F2;
     padding: .5rem 7%;
+    height: 5rem;
+    box-shadow: 0px 12px rgb(165, 17, 17);
 }
 
 .nav-top-title {
