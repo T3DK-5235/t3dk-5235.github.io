@@ -1,9 +1,6 @@
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400..700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
-html {
-    font-size: 62.5%;
-}
 body {
     color: #FFFFFF;
     font-family: "Saira", sans-serif;
@@ -18,7 +15,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
+    width: 90% !important;
     align-items: center;
     position: fixed;
     z-index: 10;
@@ -27,12 +24,12 @@ body {
     padding: .5rem 7%;
     height: 5rem;
     box-shadow: 0px 12px rgb(165, 17, 17);
-    font-size: x-large;
 }
 
 .nav-top-title {
     font-weight: bold; 
     color:black;
+    font-size: x-large;
 }
 
 .nav-top-menu {
