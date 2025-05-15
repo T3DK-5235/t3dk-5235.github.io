@@ -19,8 +19,8 @@ body {
     align-items: center;
     position: fixed;
     z-index: 10;
-    border-bottom: 1px solid var(--topbar-linebreak);
-    background-color: var(--topbar-background);
+    border-bottom: 1px solid #7A7A7A;
+    background-color: #F2F2F2;
     padding: .5rem 7%;
 }
 
@@ -35,6 +35,7 @@ body {
     color: #ffffff;
     position: relative;
     display: inline-block;
+    margin: 10px;
 }
 
 .hover-underline::after,
