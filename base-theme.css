@@ -18,26 +18,29 @@ body {
 
 .nav-top-title {
     font-weight: bold; 
-    color:black;
+    color:#FFFDF6;
     font-size: 2rem;
     height: 4rem;
     width: 100%;
     background-color: #F6995C;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-top-menu {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 3em;
     height: 2rem;
     width: 100%;
+    color:#FFFDF6;
     background-color: #51829B;
-    flex-direction: row;
 }
 
 .hover-underline {
-    font-size: 2rem;
-    color: #000000;
+    font-size: 1.4rem;
+    color: #FBFBFB;
     position: relative;
     display: inline-block;
 }
@@ -48,8 +51,7 @@ body {
     position: absolute;
     width: 100%;
     height: 2px;
-    background: linear-gradient(to right, #F6995C, #494949);
-    bottom: -5px;
+    background: #9BB0C1;
     left: 0;
     transform: scaleX(0);
     transform-origin: right;
@@ -57,7 +59,6 @@ body {
 }
 
 .hover-underline::before {
-    top: -5px;
     transform-origin: left;
 }
 
