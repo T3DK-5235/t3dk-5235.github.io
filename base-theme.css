@@ -54,7 +54,7 @@ body {
     left: 0;
     top: 0px;
     transform: scaleX(0);
-    transform-origin: right;
+    transform-origin: left;
     transition: transform 0.4s ease-out;
 }
 
@@ -68,15 +68,39 @@ body {
 }
 
 .project-container {
-    background-color: #bd6c6c;
-    margin: auto;
-    margin-top: 15px;
-    width: 60%;
-    height: 100%;
-    border-radius: 25px;
     display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 50%;
+    height: 50%;
+    background-color: #FFFDF6;
 }
 
-.project-element {
-    width: 45%;
+
+
+.project-box {
+  overflow: hidden;
+  height: 320px;
+
+
+}
+.project-visual {
+  height: 320px;
+  background-color: #EADFB4;
+  padding: 1em;
+}
+.project-text-buffer {
+  margin: 30px;
+}
+.project-text {
+  height: 280px;
+  margin-top: -312px;
+  border-bottom: 3rem solid #F6995C;
+  background-color: #9BB0C1;
+  padding: 1em;
+}
+.project-text:hover {
+  height: 100%;
+  transition: .8s;
+  transform: translateY(58%);
 }
