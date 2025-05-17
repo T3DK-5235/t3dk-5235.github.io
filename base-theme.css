@@ -70,23 +70,20 @@ body {
 .project-container {
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
-    width: 50%;
+    width: fit-content;
     height: 50%;
     background-color: #FFFDF6;
+    margin: auto;
+    gap: 1.2rem;
+    padding: 20px;
 }
-
-
-
 .project-box {
   overflow: hidden;
   height: 320px;
-
-
 }
 .project-visual {
   height: 320px;
-  background-color: #EADFB4;
+  background-color: #9BB0C1;
   padding: 1em;
 }
 .project-text-buffer {
@@ -96,7 +93,7 @@ body {
   height: 280px;
   margin-top: -312px;
   border-bottom: 3rem solid #F6995C;
-  background-color: #9BB0C1;
+  background-color: #EADFB4;
   padding: 1em;
 }
 .project-text:hover {
