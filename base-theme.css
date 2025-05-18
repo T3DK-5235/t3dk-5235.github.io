@@ -77,6 +77,9 @@ body {
     gap: 1.2rem;
     padding: 28px 20px;
     flex-wrap: wrap;
+  
+  border-left: 20px solid #51829B;
+  border-right: 20px solid #51829B;
 }
 .project-box {
   overflow: hidden;
@@ -88,17 +91,56 @@ body {
   padding: 1em;
 }
 .project-text-buffer {
-  margin: 30px;
+  padding: 1em;
 }
 .project-text {
   height: 280px;
-  margin-top: -312px;
-  border-bottom: 3rem solid #F6995C;
+  margin-top: -232px;
   background-color: #EADFB4;
-  padding: 1em;
+  display: grid;
+  grid-template-rows: 1fr;
 }
+.project-text-hoverbar {
+  background-image: url("https://timebox.wdfiles.com/local--files/timebomb/Dropdown.png");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
+  background-color: #F6995C;
+  height: 3rem;
+  width: 100%;
+}
+.project-text-hoverbar:hover {
+  cursor: pointer;
+}
+
 .project-text:hover {
   height: 100%;
   transition: .8s;
-  transform: translateY(58%);
+  transform: translateY(73%);
+}
+
+
+.project-container-title {
+  background: #51829B;
+  position: absolute;
+  font-weight: bold;
+  color: #FFFDF6;
+  top: 2px;
+  font-size: 2rem;
+  padding: 0em 1em;
+}
+
+.project-container-title::before {
+  border-left: 1rem solid #51829B;
+  position: relative;
+  content: ' ';
+  right: 2em;
+}
+
+.project-container-title::after {
+  border-right: 1rem solid #51829B;
+  position: relative;
+  content: ' ';
+  left: 2em;
 }
