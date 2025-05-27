@@ -99,7 +99,9 @@ body {
 .project-visual {
   height: 320px;
   background-color: #9BB0C1;
+  position: static;
   padding: 1em;
+  padding-top: 2em;
   box-shadow: inset 2px 0px 5px #51829B, inset -2px 0px 5px #51829B;
 }
 .project-text-buffer {
@@ -108,7 +110,7 @@ body {
 }
 .project-text {
   height: 280px;
-  margin-top: -238px;
+  margin-top: -252px;
   background-color: #EADFB4;
   display: grid;
   grid-template-rows: 1fr;
@@ -129,12 +131,18 @@ body {
   cursor: pointer;
 }
 
-
-.project-text:hover {
+.one:hover {
   height: 100%;
   transition: .8s;
-  transform: translateY(73%);
+  transform: translateY(252px);
 }
+
+.two:hover {
+  height: 100%;
+  transition: .8s;
+  transform: translateY(272px);
+}
+
 
 
 .project-container-title {
