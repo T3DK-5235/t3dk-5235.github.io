@@ -129,7 +129,7 @@ body {
   flex-direction: column;
 }
 .project-text-hoverbar {
-  background-image: url("https://timebox.wdfiles.com/local--files/timebomb/Dropdown.png");
+  background-image: url('/Assets/images/Dropdown.png');
   background-size: 20%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -238,9 +238,34 @@ body {
   background-color: #9BB0C1;
   font-weight: bold;
   font-size: 1.3rem;
-  
+}
+
+.title-one {
+  text-align: left;
+  justify-content: left;
+  padding-left: 1.4rem;
   background-image: url('/Assets/images/RightArrow.png');
   background-size: 20%;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 98% 50%;
+}
+
+.title-two {
+  text-align: right;
+  justify-content: right;
+  padding-right: 1.4rem;
+  background-image: url('/Assets/images/LeftArrow.png');
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+}
+
+.title-three {
+  text-align: left;
+  justify-content: left;
+  padding-left: 1.4rem;
+  background-image: url('/Assets/images/RightArrow.png');
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
 }
