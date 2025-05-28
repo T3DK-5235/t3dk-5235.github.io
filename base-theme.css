@@ -55,6 +55,13 @@ body {
   display: inline-block;
 }
 
+.hover-underline a:link {
+  color:#FBFBFB;
+}
+.hover-underline a:visited {
+  color:#C4C4C4;
+}
+
 .hover-underline::after,
 .hover-underline::before {
   content: '';
@@ -144,7 +151,7 @@ body {
 
 .three:hover {
   transition: .8s;
-  transform: translateY(257px);
+  transform: translateY(275px);
 }
 
 .four:hover {
