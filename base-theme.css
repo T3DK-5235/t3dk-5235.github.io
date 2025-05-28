@@ -114,8 +114,15 @@ body {
   background-color: #9BB0C1;
   position: static;
   padding: 1em;
-  padding-top: 2em;
+  padding-top: 1.5em;
   box-shadow: inset 2px 0px 5px #51829B, inset -2px 0px 5px #51829B;
+}
+.visual-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: x-large;
+  color: #FFFDF6;
+  font-weight: bold;
 }
 .project-text-buffer {
   padding: 1em;
