@@ -55,10 +55,16 @@ body {
   display: inline-block;
 }
 
+.hover-underline a {
+  text-decoration: none;
+}
 .hover-underline a:link {
   color:#FBFBFB;
 }
 .hover-underline a:visited {
+  color:#FBFBFB;
+}
+.hover-underline a:hover {
   color:#C4C4C4;
 }
 
@@ -181,4 +187,46 @@ body {
   position: relative;
   content: ' ';
   left: 2em;
+}
+
+.skills-box {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  gap: 3em;
+}
+
+.skills-category {
+  padding: 0em;
+  display: flex;
+  min-width: 30%;
+  max-width: 30%;
+  align-items: center;
+  justify-content: center;
+  background-color: #9BB0C1;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 33%;
+  
+  box-shadow: inset 0px 0px 15px #51829B;
+}
+
+.skill {
+  background-color: #F6995C;
+  padding: 1rem;
+  margin: 1em;
+  color: #FBFBFB;
+  flex-basis: 25%;
+  flex-grow: 0;
+  text-align: center;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 15px #3C6980;
+}
+
+.skills-column {
+  flex-direction: column;
+  gap: 1rem;
 }
