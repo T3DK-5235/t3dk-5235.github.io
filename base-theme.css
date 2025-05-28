@@ -142,6 +142,16 @@ body {
   transform: translateY(257px);
 }
 
+.three:hover {
+  transition: .8s;
+  transform: translateY(257px);
+}
+
+.four:hover {
+  transition: .8s;
+  transform: translateY(239px);
+}
+
 
 
 .project-container-title {
