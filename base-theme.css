@@ -286,3 +286,20 @@ body {
   background-repeat: no-repeat;
   background-position: 98% 50%;
 }
+
+@media (min-width: 490px) {
+  .mobile-warning {
+    display: none;
+  }
+}
+
+@media (max-width: 490px) {
+.mobile-warning {
+  background: repeating-linear-gradient(
+  45deg,
+  #BA0600, #BA0600 10px,
+  #49000B 10px, #49000B 20px
+  );
+  height: 4em;
+}
+}
