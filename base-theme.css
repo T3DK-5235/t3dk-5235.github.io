@@ -123,6 +123,17 @@ body {
   color: #FFFDF6;
   font-weight: bold;
 }
+
+.visual-title a:link {
+  color:#FBFBFB;
+}
+.visual-title a:visited {
+  color:#FBFBFB;
+}
+.visual-title a:hover {
+  color:#d3d2d2;
+}
+
 .project-text-buffer {
   padding: 1em;
   box-shadow: inset 2px 0px 5px #C6BC99, inset -2px 0px 5px #C6BC99;
