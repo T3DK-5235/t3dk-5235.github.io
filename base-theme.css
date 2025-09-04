@@ -91,10 +91,11 @@ body {
   transform: scaleX(1);
 }
 
+/* Width was 50%*/
 .project-container {
   display: flex;
   justify-content: space-evenly;
-  width: 50%;
+  width: 60rem; 
   height: 50%;
   background-color: #FFFDF6;
   margin: auto;
