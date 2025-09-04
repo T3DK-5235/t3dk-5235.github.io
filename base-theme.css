@@ -185,7 +185,8 @@ body {
 
 .project-container-title {
   background: #51829B;
-  position: absolute;
+  /*position: absolute;*/
+  position: relative;
   font-weight: bold;
   color: #FFFDF6;
   top: 2px;
