@@ -174,7 +174,7 @@ body {
   transform: translateY(-250px);
 }
 
-.one-infobar:hover {
+.one:hover .infobar {
   transition: .4s;
   transform: translateY(30px);
 }
