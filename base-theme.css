@@ -176,7 +176,7 @@ body {
 
 .two:hover {
   transition: .8s;
-  transform: translateY(257px);
+  transform: translateY(-269px);
 }
 
 .three:hover {
