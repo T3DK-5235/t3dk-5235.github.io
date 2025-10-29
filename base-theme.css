@@ -113,10 +113,10 @@ body {
 }
 .project-box {
   overflow: hidden;
-  height: 360px;
+  height: 460px;
 }
 .project-visual {
-  height: 320px;
+  height: 420px;
   background-color: #9BB0C1;
   position: static;
   padding: 1em;
@@ -144,9 +144,10 @@ body {
   padding: 1em;
   box-shadow: inset 2px 0px 5px #C6BC99, inset -2px 0px 5px #C6BC99;
   padding-bottom: 0px;
+  height: 100%;
 }
 .project-text {
-  height: 280px;
+  height: 400px;
   background-color: #EADFB4;
   display: flex;
   flex-direction: column;
@@ -158,11 +159,11 @@ body {
   background-position: 50% 50%;
   
   background-color: #F6995C;
-  height: 3rem;
-  min-height: 3rem;
+  height: 2rem;
+  min-height: 2rem;
   width: 100%;
   
-  box-shadow: 0px 5px 5px #51829B, 0px -5px 5px #C6BC99;
+  box-shadow: 0px 5px 5px #C6BC99, 0px -5px 5px #51829B;
 }
 .project-text-hoverbar:hover {
   cursor: pointer;
@@ -170,7 +171,12 @@ body {
 
 .one:hover {
   transition: .8s;
-  transform: translateY(238px);
+  transform: translateY(-250px);
+}
+
+.one-infobar:hover {
+  transition: .4s;
+  transform: translateY(30px);
 }
 
 .two:hover {
