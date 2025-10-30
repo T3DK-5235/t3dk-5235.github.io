@@ -176,22 +176,22 @@ body {
 
 .two:hover {
   transition: .8s;
-  transform: translateY(-269px);
+  transform: translateY(-256px);
 }
 
 .three:hover {
   transition: .8s;
-  transform: translateY(275px);
+  transform: translateY(-275px);
 }
 
 .four:hover {
   transition: .8s;
-  transform: translateY(239px);
+  transform: translateY(-239px);
 }
 
 .five:hover {
   transition: .8s;
-  transform: translateY(248px);
+  transform: translateY(-248px);
 }
 
 .project-container-title {
