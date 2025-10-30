@@ -181,17 +181,17 @@ body {
 
 .three:hover {
   transition: .8s;
-  transform: translateY(-275px);
+  transform: translateY(-252px);
 }
 
 .four:hover {
   transition: .8s;
-  transform: translateY(-239px);
+  transform: translateY(-252px);
 }
 
 .five:hover {
   transition: .8s;
-  transform: translateY(-248px);
+  transform: translateY(-252px);
 }
 
 .project-container-title {
